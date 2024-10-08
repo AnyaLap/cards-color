@@ -1,0 +1,43 @@
+.card{
+    width: 200px;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #241158;
+}
+.card-body{
+    color: white;
+}
+.card-title{
+    border-bottom: 1px solid white;
+    padding: 10px 5px;
+
+}
+.card-price{
+    padding: 30px;
+}
+.card-price span{
+    font-size: 40px;
+    font-weight: 500;
+}
+.card-speed{
+    background-color: transparent;
+}
+.card-text{
+    background-color: rgb(241, 241, 241);
+}
+.card_pad{
+    padding: 10px;
+    color: grey;
+}
+.card-btn{
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+.large{
+    transform: scale(1.1);
+    z-index: 1;
+}
