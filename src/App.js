@@ -1,6 +1,7 @@
 import { Content } from './components/Content';
 import { Counter } from './components/Counter';
 import "./App.css";
+import { TextInputComponent } from './components/Input/Input';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <h1>Выберите тариф</h1>
       <Content />
       <Counter />
+      <TextInputComponent />
     </div>
     </main>
   );

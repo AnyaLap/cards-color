@@ -1,0 +1,20 @@
+.counter-text {
+    color: #cc9abd;
+    font-weight: bold;
+}
+.counter-btn {
+    padding: 15px;
+    box-shadow: 0 0 10px #6da5da;
+    border: none;
+
+    background: transparent;
+    color: #fff;
+    font-weight: bold;
+    font-size: medium;
+    
+    transition: 0.5s;
+    cursor: pointer;
+}
+.counter-btn:hover {
+    background-color: #1c972c;
+}
